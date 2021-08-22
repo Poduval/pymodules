@@ -1,0 +1,6 @@
+name;sex;college;grade;HRScore;reportingScore;technicalScore;theoreticalScore
+N1;M;C1;8;8;5;6;7
+N2;M;C2;7.7;6;8;6;8
+N3;F;C2;9;7;4;7;9
+N4;F;C1;6;7;8;6;7
+N5;M;C1;8;6;5;7;5
