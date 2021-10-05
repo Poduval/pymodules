@@ -1,0 +1,16 @@
+
+# 1. Manually create the environment first
+conda create -n pymodules python=3.8
+
+# 2. Install modules
+-conda install pandas
+
+# 3. Export the environment 
+# DO EXPORT EACH TIME YOU INSTALL NEW MODULES. 
+conda env export > environment.yml
+
+# 4. Create environment from yml file in another machine, make sure you are inside the project
+conda env create -f environment.yml
+
+# 5. Activate the environment 
+conda activate pymodules

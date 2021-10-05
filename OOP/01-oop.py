@@ -1,11 +1,16 @@
-
+# import data
+# %%
 import pandas as pd
-from OOP.Py.recruitment import Recruitment
+# import os
+# os.getcwd()
+from Py.recruitment import Recruitment
 
 # import data
-df = pd.read_csv("OOP/data/recruitment.txt", sep=";")
+# %%
+df = pd.read_csv("data/recruitment.txt", sep=";")
 df.head()
 
+# %%
 # Analysis
 rc = Recruitment(df)
 rc.Attributes()
@@ -17,3 +22,4 @@ rc.Results(top = False)
 
 
 
+# %%

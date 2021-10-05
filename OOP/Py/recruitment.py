@@ -6,7 +6,6 @@ Example of creating classes using object oriented programming
 import re
 import pandas as pd
 
-
 # Defining recruitment class
 class Recruitment():
     """
@@ -42,6 +41,7 @@ class Recruitment():
         """
         :return: Overall count per college and sex
         """
+        # print(self.Attributes())
         return self.df.groupby(by=['sex', 'college']).size()
 
     def Results(self, n=3, top=True):
