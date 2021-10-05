@@ -9,3 +9,6 @@
 .idea/misc.xml
 .idea/inspectionProfiles/profiles_settings.xml
 Fast-AI/adult.csv
+object-detection/pre-trained/
+object-detection/models/
+object-detection/protoc-3/
